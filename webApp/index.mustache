@@ -1,0 +1,88 @@
+<html>
+	<style type="text/css">
+    html, body {
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+ 
+    #full-screen-background-image {
+        z-index: -999;
+        width: 100%;
+        height: 1000;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+</style>
+
+	<head>
+		<title>MARTINEZ AGUSTIN</title>		
+		<link rel="shortcut icon" type="image/x-icon" href="http://storage.cloversites.com/oakhillbaptistchurch/site_images/page57_picture0_1333388848.jpg">
+	</head>
+	<img alt="full screen background image" src="fondo.jpg" id="full-screen-background-image" />
+	
+		<h1 align="center">Temperatira y Humedad en tiempo real </h1>	
+		<center><img  id="estirada" style="position: absolute; top: 60; left: 0; width: 100%; height: 15%"  src="logo.png" alt="Logotipo Connect4" title="Logotipo Connect4"/></center>
+		
+		<hr>
+			{{#datos}}
+				{{toString}}
+				{{toStringh}}
+			{{/datos}}
+				
+		
+		<hr>
+		<div id="PlayerOne" tabindex="0" class="ui-hidden">
+	<div id="EmbedViewer">
+		
+		<div id="ViewerContainer" class="viewer"><div class="screen-container "><div class="screen-content"><h2>Flash plugin missing</h2><p>Get the latest Flash player to view this content<br><a href="http://get.adobe.com/flashplayer/" target="_blank" id="ViewInApp">Get Flash player</a></p></div></div></div>
+	</div>
+	<div id="ComponentsContainer"></div>
+	<div id="ScreensContainer"></div>
+	<div id="OverlaysContainer"></div>
+	<span class="is-retina"></span>
+	<iframe id="CorsFrame" data-src="https://www.ustream.tv/corsCommunicatorFrameDirect" width="0" height="0" src="https://www.ustream.tv/corsCommunicatorFrameDirect">
+    </iframe>
+</div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		
+				
+				
+		<hr>
+		<h1 align="center">Para recibir por mail las actualizaciones del tiempo REGISTRASE </h1>	
+		<form action="/registrar" method="POST">
+			<p align="center">			
+				<label for="nombre"/>
+				<input type="text" value="Nombre" name="nombre">
+				
+			</p>
+			<p align="center">			
+				<label for="apellido"/>
+				<input type="text" value="Apellido" name="apellido">
+				
+			</p>
+			<p align="center">			
+				<label for="mail"/>
+				<input type="text" value="E-MAIL" name="mail">
+				
+			
+			<p align="center">
+				<input type=image src="registrar.png" width="100" height="50">	
+			</p>	
+					
+			</form>
+			<hr>	
+			{{{tabla}}}
+			<hr>
+	</center>	
+	</body>
+</html>

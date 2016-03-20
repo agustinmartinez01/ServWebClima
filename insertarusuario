@@ -1,0 +1,7 @@
+INSERT INTO `servWeb`.`users`
+(`id`,
+`mail`,
+`nombre`,
+`apellido`)
+VALUES
+(1,"agustinmartinez01@gmail.com","agustin","martinez");

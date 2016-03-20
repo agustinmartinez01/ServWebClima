@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+<script>
+
+    alert("OCURRIO UN ERROR");
+    window.location="history.back()";
+
+</script>
+
+</body>
+</html>
+
+

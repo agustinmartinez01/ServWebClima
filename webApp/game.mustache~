@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<title>Connect4</title>		
+		<link rel="shortcut icon" type="image/x-icon" href="http://storage.cloversites.com/oakhillbaptistchurch/site_images/page57_picture0_1333388848.jpg">
+	</head>
+	<body background="fondo.jpg" text="#FFFFFF">
+		<center><img src="logo.png" alt="Logotipo Connect4" title="Logotipo Connect4"/></center>
+		<hr>
+	<center>	
+			
+	{{usuario1}}
+	{{usuario2}}
+	{{juega}}
+	Turno: {{jugador}}
+	
+	<form action="/game" method="POST">
+		<input type="hidden"name="game_id" value={{current.game_id}} />
+		<input type="hidden" name="jugador" value={{jugador}}/>
+		<input type="hidden" name="usuario1" value={{usuario1}}/>
+		<input type="hidden" name="usuario2" value={{usuario2}}/>
+		<input type="hidden"name="columna1"  />	
+		<input type="submit" style="width:96px; height:25px" value="TIRAR 1" name="tirar0" />
+		<input type="submit" style="width:96px; height:25px" value="TIRAR 2" name="tirar1"/>
+		<input type="submit" style="width:96px; height:25px" value="TIRAR 3" name="tirar2"/>
+		<input type="submit" style="width:96px; height:25px" value="TIRAR 4" name="tirar3"/>
+		<input type="submit" style="width:96px; height:25px" value="TIRAR 5" name="tirar4"/>
+		<input type="submit" style="width:96px; height:25px" value="TIRAR 6" name="tirar5"/>
+		
+		
+	</form>	
+
+		
+
+
+	
+	{{{tablero}}}
+	{{{javascript}}}
+		<div>
+		<form action="guardar" method="POST">
+				<input type=image src="guardar.png">
+		</form>
+		
+		
+	</div>
+		</center>
+	</body>
+</html><tr>

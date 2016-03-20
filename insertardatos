@@ -1,0 +1,8 @@
+INSERT INTO `servWeb`.`datos`
+(`id`,
+`temp`,
+`hum`,
+`fecha`,
+`hora`)
+VALUES
+(1,"20","40","2015/09/1","20:45");

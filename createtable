@@ -1,0 +1,1 @@
+create table datos (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, temp VARCHAR(20), hum VARCHAR(20), fecha DATE, hora time)
