@@ -29,7 +29,7 @@ public class CapaWeb {
     public CapaWeb(){
             //Declaro variables de la base de datos
                 String driver = "com.mysql.jdbc.Driver";
-                String jdbs = "jdbc:mysql://190.191.41.80/servWeb";
+                String jdbs = "jdbc:mysql://localhost/servWeb";
                 String usubd = "root";
                 String contrbd = "100991";
                 

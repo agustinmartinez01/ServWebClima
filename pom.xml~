@@ -46,7 +46,7 @@
     <dependency>
       <groupId>org.javalite</groupId>
       <artifactId>activejdbc</artifactId>
-      <version>1.4.9</version>
+      <version>1.8.0_77</version>
     </dependency>
   </dependencies>
 
@@ -55,7 +55,7 @@
       <plugin>
         <groupId>org.javalite</groupId>
         <artifactId>activejdbc-instrumentation</artifactId>
-        <version>1.4.9</version>
+        <version>1.8.0_77</version>
         <executions>
           <execution>
             <phase>process-classes</phase>
